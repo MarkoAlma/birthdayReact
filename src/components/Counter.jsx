@@ -4,7 +4,7 @@ export const Counter = ({szam}) => {
     
   return (
     <div>
-      person: {szam!=0?szam:"today no more events..."}
+      {szam!=0?"person: "+szam:"today no more events..."}
     </div>
   )
 }

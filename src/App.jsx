@@ -14,10 +14,10 @@ function App() {
   return (
     <>
       <div className='fo container-fluid'>
-        <div className='fo'>
+        <div className='fo pt-2'>
           <span style={{ textAlign: 'center' }}><Header /></span>
           <div style={{ textAlign: 'center', paddingBottom: '10px', width: '100%' }}><Counter szam={pers.length} /></div>
-          <br />
+          
           {pers.length != 0 && <PersList pers={pers} setPers={setPers} />}
         </div>
       </div>
