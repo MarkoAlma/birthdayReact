@@ -1,1 +1,1 @@
-react-birthday-alma.netlify.app
+https://react-birthday-alma.netlify.app
